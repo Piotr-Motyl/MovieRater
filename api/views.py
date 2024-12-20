@@ -1,5 +1,3 @@
-from django.core.serializers import serialize
-from django.shortcuts import render
 from rest_framework.pagination import PageNumberPagination
 from rest_framework import viewsets, filters
 from django.contrib.auth.models import User

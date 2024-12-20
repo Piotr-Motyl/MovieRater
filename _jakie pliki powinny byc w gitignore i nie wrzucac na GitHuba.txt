@@ -1,2 +1,0 @@
-Jakie pliki powinny byc w .gitignore i nie wrzucac na GitHuba?
-W jakim dokladnie miejscu powinien byc zlokalizowany git ignore?
