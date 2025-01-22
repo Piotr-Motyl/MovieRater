@@ -1,11 +1,52 @@
-# virtual environment
-.venv
+# Python folders
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
 
-# database
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# IDE folders
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.code-workspace
+
+# Operating system configuration files
+.DS_Store
+Thumbs.db
+
+# Django files
 db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+*.so
 
-# migrations
-*/migrations/*
-!*/migrations/__init__.py
+# Files with keys or sensitive data
+.env
+*.pem
 
-#
+# cache files
+celerybeat-schedule
+*.pid
+*.out
+*.err
+
+# Pytest/Django test artifacts
+*.pytest_cache/
+.coverage
+htmlcov/
+
