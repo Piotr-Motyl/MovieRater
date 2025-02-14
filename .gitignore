@@ -13,7 +13,6 @@ build/
 # Virtual environment
 .venv/
 env/
-venv/
 ENV/
 
 # IDE folders
